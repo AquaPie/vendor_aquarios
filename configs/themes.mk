@@ -12,19 +12,36 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Main Required Packages
+# Accents
 PRODUCT_PACKAGES += \
-    Launcher3 \
-    LiveWallpapersPicker \
-    WallpaperPickerGooglePrebuilt \
-    Turbo \
-    PrebuiltDeskClockGoogle
+    AmberAccent \
+    AquaAccent \
+    BlackAccent \
+    BlueGreyAccent \
+    BrownAccent \
+    CyanAccent \
+    DarkRedAccent \
+    DeepOrangeAccent \
+    DeepPurpleAccent \
+    GreenAccent \
+    GreyAccent \
+    IndigoAccent \
+    LightBlueAccent \
+    LightGreenAccent \
+    LimeAccent \
+    OrangeAccent \
+    PinkAccent \
+    PurpleAccent \
+    RedAccent \
+    YellowAccent \
+    WhiteAccent
 
-# Include explicitly to work around GMS issues
+# Dark theme
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full \
-    librsjni
+    SettingsDarkTheme \
+    SystemDarkTheme \
+    SysuiQsDarkTheme \
+    GBoardDarkTheme
 
-# AdBlocking
-PRODUCT_COPY_FILES += \
-    vendor/aquarios/prebuilt/etc/hosts/hosts:system/etc/hosts
+
+
