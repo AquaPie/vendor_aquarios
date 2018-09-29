@@ -16,8 +16,8 @@
 -include vendor/aquarios/configs/caf_fw.mk
 
 # Include overlays
-PRODUCT_PACKAGE_OVERLAYS += \
-   vendor/aquarios/overlay/common
+#PRODUCT_PACKAGE_OVERLAYS += \
+#   vendor/aquarios/overlay/common
 
 # Include some other segments
 include vendor/aquarios/configs/aquarios_defaults.mk
